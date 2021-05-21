@@ -49,8 +49,8 @@
             var cell1 = row.insertCell(1);
             var cell2 = row.insertCell(2);
             cell0.innerHTML = i+".";
-            cell1.innerHTML = "<img src='./images/Train/Original_"+i+".png' alt=''>";
-            cell2.innerHTML = "<img src='./images/Train/Generated_"+i+".png' alt=''>";
+            cell1.innerHTML = "<img src='./images/Train/Original/"+i+".png' alt=''>";
+            cell2.innerHTML = "<img src='./images/Train/Generated/"+i+".png' alt=''>";
         }
         var table = document.getElementById("Testing");
         for(var i=0;i<200;i++){
@@ -59,10 +59,9 @@
             var cell1 = row.insertCell(1);
             var cell2 = row.insertCell(2);
             cell0.innerHTML = i+".";
-            cell1.innerHTML = "<img src='./images/Test/Original_"+(i+800)+".png' alt=''>";
-            cell2.innerHTML = "<img src='./images/Test/Generated_"+(i+800)+".png' alt=''>";
+            cell1.innerHTML = "<img src='./images/Test/Original/"+(i+800)+".png' alt=''>";
+            cell2.innerHTML = "<img src='./images/Test/Generated/"+(i+800)+".png' alt=''>";
         }
     </script>
-    <hr color="blue">
 </body>
 </html>
